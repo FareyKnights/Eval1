@@ -38,7 +38,34 @@ nav a {
 
     } 
 
-    
+    .Head {
+
+        width : 100%;
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+
+        
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .Head nav {
+
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width : 70%;
+        text-align: center;
+    }
+
 
     div {
 
@@ -159,12 +186,32 @@ nav a {
 
     } 
 
+    .Head {
+
+        width : 100%;
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     header {
 
+        width : 100%;
         display : flex;
         flex-direction: row;
         justify-content: center;
 
+    }
+
+    .Head nav {
+
+        display : flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        width : 70%;
+        text-align: center;
     }
 
     div {
@@ -282,26 +329,55 @@ nav a {
 
 }
 
-@media screen and (min-width : 1025) {
+@media screen and (min-width : 1025px) {
+
+    body {
+
+        font-size : 1.4em;
+    }
 
     img {
         
-        width : 100%;
+        width : 40%;
         height : auto;
 
     } 
 
-    header {
+    .Head {
 
+        width : 80%;
         display : flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2%;;
+        
+    }
 
+    .Head header {
+
+        width : 50%;
+    }
+
+
+
+    .Head nav {
+
+        width :120%;
+
+    }
+
+    .Head a {
+
+        width : 20%;
+        
+        
     }
 
     div {
 
-        width : 90%;
+        margin-left : 10%;
+        width : 75%;
         text-align: center;
     }
 
@@ -333,6 +409,13 @@ nav a {
 
     }
 
+    .Action {
+
+        padding-bottom: 2%;
+        border-bottom: solid;
+        border-top : solid;
+    }
+
     .Article {
 
         display : flex;
@@ -342,6 +425,7 @@ nav a {
     article {
 
         text-align: justify;
+        margin-left : -13%;
         width : 100%;
 
     }
@@ -356,11 +440,20 @@ nav a {
         width : 20%;
     }
 
+    .Actus {
+
+        padding-bottom: 2%;
+        border-bottom: solid;
+
+    }
+
     .Event {
 
         display : flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 2%;
+        border-bottom: solid;
     }
 
     .Event article {
@@ -386,6 +479,15 @@ nav a {
         height : auto;
         
     }
+
+    .Adress {
+
+        padding-bottom: 2%;
+        border-bottom: solid;
+
+    }
+
+
     footer {
 
         display : flex;
@@ -404,8 +506,7 @@ nav a {
         
     }
 
-    footer img {
-
+    footer img {  
         width : 100%;
         margin-top : 15%;
         height : auto;
